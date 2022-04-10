@@ -1,8 +1,11 @@
+@import url("Colour-Themes.css");
+@import "Colour-Themes.css";
+
 .mainContainer{
-   background-color: green;
+    background-color: var(--colour-4)
 }
 
-* {    
-    margin: 0 !important;
-    padding: 0 !important;
+body {    
+    margin: 0 ;
+    padding: 0 ;
 }

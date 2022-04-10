@@ -1,0 +1,30 @@
+@import url("Colour-Themes.css");
+@import "Colour-Themes.css";
+
+.aboutContainer{
+    background-color: #1f2833;
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 10vw 4vw;
+    align-items: flex-end;
+}
+
+.aboutContainer > h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: var(--colour-4);
+    margin: 0;
+    font-weight: bold;
+}
+
+.aboutContainer > p {
+    text-align: right;
+    color: white;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 450px) {
+    .aboutContainer {
+        text-align: end;
+    }
+   }
