@@ -1,0 +1,92 @@
+@import url("Colour-Themes.css");
+@import "Colour-Themes.css";
+
+.projectContainer {
+    color: white;
+    background-color: #0b0c10;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 40px 40px 0px 40px;
+}
+
+.projectCard {
+    border-radius: 16px;
+    flex: 1 1 40%;
+    background-color: #1f2833;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 10px 20px 20px #030109;
+
+}
+.projectCard > p{
+    margin: 0px;
+    margin-bottom: 16px;
+
+}
+
+
+.projectCard:hover{
+    transform: translate(-0px, -4px);
+    transition: 1s;
+    box-shadow: 10px 40px 40px #030109;
+
+}
+
+.projectName{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.projectAbout{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.projectLink{
+    text-transform: capitalize;
+    font-weight: bold;
+
+
+}
+
+.buttonCon{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonCon > a {
+    display: flex;
+}
+
+.gitLink{
+    margin-left: 20px ;
+    font-size: 25px;
+    color: white;
+
+}
+
+.siteLink{
+    font-size: 25px;
+    color: white;
+
+}
+
+.gitLink:hover {
+    color: var(--colour-4);
+    transition: 0.5s;
+
+}
+
+.siteLink:hover{
+    color: var(--colour-4);
+    transition: 0.5s;
+}
+
+.buttonCon > a {
+    min-height: 4px;
+}

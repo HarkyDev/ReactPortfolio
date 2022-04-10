@@ -1,0 +1,11 @@
+@import url("Colour-Themes.css");
+@import "Colour-Themes.css";
+
+.navMain {
+    background-color: var(--colour-2);
+   
+}
+
+#dropMenu{
+    transition: 10s;
+}

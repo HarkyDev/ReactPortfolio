@@ -1,0 +1,55 @@
+@import url("Colour-Themes.css");
+@import "Colour-Themes.css";
+
+.contactSectionContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5vw;
+}
+
+
+.contactInfo {
+}
+
+.lineOne{
+    color: var(--colour-1);
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0px;
+    
+}
+.lineTwo{
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 40px;
+    text-align: right;
+    margin-top: -30px;
+}
+
+@media only screen and (max-width: 450px) {
+    .contactSectionContainer {
+        flex-direction: column;
+        
+    }
+    .lineOne {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .lineTwo {
+        display: none;
+        display: flex;
+        justify-content: center;
+    }
+    .contactInfo {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+   }
+ 
