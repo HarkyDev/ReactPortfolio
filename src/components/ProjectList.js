@@ -11,7 +11,7 @@ export default function ProjectList({ projects  }) {
   return (
     <div class="projectContainer">
       {projects.map((project) => (
-        <div class="projectCard"> 
+        <div class="projectCard" id="Projects"> 
          <p class="projectName">{`${project.name}`} </p>
          <p class="projectLink">{`${project.about}`} </p>
          <div class="buttonCon">

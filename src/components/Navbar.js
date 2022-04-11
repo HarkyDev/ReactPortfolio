@@ -16,19 +16,19 @@ function Navbar() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                 <a
-                    href="#"
+                    href="#Projects"
                     className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm text-xl ease-in-out duration-500"
                   >
                     Projects
                   </a>
                   <a
-                    href="#"
+                    href="#About"
                     className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm text-xl ease-in-out duration-500"
                   >
                    About me
                   </a>
                   <a
-                    href="#"
+                    href="#Contact"
                     className="text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm text-xl ease-in-out duration-500"
                   >
                     Contact me
@@ -106,21 +106,21 @@ function Navbar() {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center" id="dropMenu">
               
                 <a
-                  href="#"
+                  href="#Projects"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base text-xl"
                 >
                    Projects
                 </a>
 
                 <a
-                  href="#"
+                  href="#About"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base text-xl"
                 >
                  About me
                 </a>
 
                 <a
-                  href="#"
+                  href="#Contact"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base text-xl"
                 >
                  Contact Me

@@ -5,7 +5,7 @@ import "../styles/ContactSection.css"
 
 function Hero() {
     return (
-      <div class="contactSectionContainer">
+      <div class="contactSectionContainer" id="Contact">
         <div class="contactInfo">
             <p class="lineOne">Get in touch.</p>        
             <p class="lineTwo">send me and email.</p>        
