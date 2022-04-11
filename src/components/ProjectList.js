@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/Project.css"
-// import { FaGithub, FaGlobe } from 'react-icons/fa';
+import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 
 
@@ -15,13 +15,13 @@ export default function ProjectList({ projects  }) {
          <p class="projectName">{`${project.name}`} </p>
          <p class="projectLink">{`${project.about}`} </p>
          <div class="buttonCon">
-
-          <a href={project.site} class="siteLink">
-          {/* <FaGlobe /> */}
-          </a>
+          {project.site !== "" && <a href={project.site} class="siteLink">
+          <FaGlobe />
+          </a>}
+          
 
           <a href={project.git} class="gitLink">
-          {/* <FaGithub /> */}
+          <FaGithub />
           </a>
 
          </div>

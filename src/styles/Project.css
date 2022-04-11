@@ -13,6 +13,7 @@
 }
 
 .projectCard {
+    min-height: 300px;
     border-radius: 16px;
     flex: 1 1 40%;
     background-color: #1f2833;
@@ -57,6 +58,7 @@
 .buttonCon{
     display: flex;
     justify-content: flex-end;
+    margin-top: 60px;
 }
 
 .buttonCon > a {
@@ -78,15 +80,19 @@
 
 .gitLink:hover {
     color: var(--colour-4);
-    transition: 0.5s;
+    transition: 0.8s;
+    transform: scale(1.1);
+
 
 }
 
 .siteLink:hover{
     color: var(--colour-4);
-    transition: 0.5s;
+    transition: 0.8s;
+    transform: scale(1.1);
 }
 
 .buttonCon > a {
     min-height: 4px;
 }
+

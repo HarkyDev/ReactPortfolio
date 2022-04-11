@@ -3,7 +3,7 @@ const projects = [
     name: "ReactPortolio",
     about: "The idea for this project was to put together a working, professional and practical portfolio whilst also demonstrating my ability to generate the front end using react and hosting it on a remote server. This project also shows my ability to integrate other front end technologies along side react.",
     git: "https://github.com/HarkyDev/ReactPortfolio",
-    site:""
+    site:"https://react-port-eh.herokuapp.com/"
   },
   {
     name: "TextEditPWA",
@@ -21,7 +21,7 @@ const projects = [
     name: "Legogram (instaClone)",
     about: "This Is a clone of instagram based around the idea of a niche centred theme, in this case we chose lego. The project was designed to show the use of MySQL and how we handle backend data requests through custom built api paths and also server up the front end with Handlebars following the MVC model",
     git: "https://github.com/HarkyDev/Leg-it",
-    site:""
+    site:"https://lego-gram.herokuapp.com/"
   },
   {
     name: "E-Commerce back end",
@@ -41,6 +41,12 @@ const projects = [
     git: "https://github.com/HarkyDev/FindMyFootballApp",
     site:"https://harkydev.github.io/FindMyFootballApp/"
   },
+  {
+    name: "FindMyFootball",
+    about: "FindMyFootball is an api based project that requires football information from teams to the front end and serve up to the user, from multiple leagues at the highest professional level of the sport.",
+    git: "https://github.com/HarkyDev/FindMyFootballApp",
+    site:"https://harkydev.github.io/FindMyFootballApp/"
+  }
 
 
 ];
